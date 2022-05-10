@@ -789,10 +789,10 @@ main(int argc, char *argv[])
 		} else if (i + 1 == argc)
 			usage();
 		/* these options take one argument */
-	    else if (!strcmp(argv[i], "-g")) {   /* number of columns in grid */
+	    else if (!strcmp(argv[i], "-g"))    /* number of columns in grid */
 	       columns = atoi(argv[++i]);
         if (lines == 0) lines = 1;
-	    } else if (!strcmp(argv[i], "-l")) { /* number of lines in grid */
+	    else if (!strcmp(argv[i], "-l"))  /* number of lines in grid */
 			lines = atoi(argv[++i]);
 		else if (!strcmp(argv[i], "-x"))   /* window x offset */
 			dmx = atoi(argv[++i]);
@@ -801,7 +801,7 @@ main(int argc, char *argv[])
 		else if (!strcmp(argv[i], "-z"))   /* make dmenu this wide */
 			dmw = atoi(argv[++i]);
 		if (columns == 0) columns = 1;
-	    } else if (!strcmp(argv[i], "-m"))
+	    else if (!strcmp(argv[i], "-m"))
 
 			mon = atoi(argv[++i]);
 		else if (!strcmp(argv[i], "-p"))   /* adds prompt to left of input field */
