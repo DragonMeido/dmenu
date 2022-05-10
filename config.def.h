@@ -7,9 +7,9 @@ static const char *fonts[] = {
 	"CodeNewRoman Nerd Font Mono:size=16"
 };
 
-static int dmx = 0; /* put dmenu at this x offset */
-static int dmy = 0; /* put dmenu at this y offset (measured from the bottom if topbar is 0) */
-static unsigned int dmw = 0; /* make dmenu this wide */
+static int dmx = 560; /* put dmenu at this x offset */
+static int dmy = 250; /* put dmenu at this y offset (measured from the bottom if topbar is 0) */
+static unsigned int dmw = 200; /* make dmenu this wide */
 
 
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
