@@ -9,7 +9,7 @@ static const char *fonts[] = {
 
 static int dmx = 560; /* put dmenu at this x offset */
 static int dmy = 250; /* put dmenu at this y offset (measured from the bottom if topbar is 0) */
-static unsigned int dmw = 200; /* make dmenu this wide */
+static unsigned int dmw = 800; /* make dmenu this wide */
 
 
 static const char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
